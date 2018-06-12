@@ -1,0 +1,31 @@
+{
+  "name": "Clement_Udensi_Webpage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/icons": "1.0.0-beta.43",
+    "classnames": "latest",
+    "install": "^0.11.0",
+    "material-ui": "1.0.0-beta.45",
+    "npm-run-all": "4.1.2",
+    "prop-types": "latest",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-popper": "latest",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "0.9.x",
+    "react-slick": "0.23.1",
+    "react-swipeable-views": "0.12.13",
+    "run-all": "^1.0.1"
+  },
+  "devDependencies": {
+    "react-app-env": "^1.2.0",
+    "uglify-js-brunch": "^2.10.0"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
